@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c11175d-2cb2-4f74-96c5-f15f3e408f2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/stretchy.js" />
+    <list default="true" id="2c11175d-2cb2-4f74-96c5-f15f3e408f2c" name="Default" comment="Stretchy for nice looking from thingy">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout.html" afterPath="$PROJECT_DIR$/templates/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thought/templatetags/thought_tags.py" afterPath="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/templates/users/dashboard.html" afterPath="$PROJECT_DIR$/user/templates/users/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/views.py" afterPath="$PROJECT_DIR$/user/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +24,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thought_tags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="stretchy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/stretchy.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,8 +61,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="218" lean-forward="false" selection-start-line="14" selection-start-column="218" selection-end-line="14" selection-end-column="218" />
               <folding />
             </state>
           </provider>
@@ -42,9 +71,11 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/templates/users/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+              <folding>
+                <element signature="e#189#1062#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,10 +133,11 @@
         <option value="$PROJECT_DIR$/thougth/models.py" />
         <option value="$PROJECT_DIR$/thought/views.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
-        <option value="$PROJECT_DIR$/user/views.py" />
         <option value="$PROJECT_DIR$/thought/templates/thought/_form.html" />
         <option value="$PROJECT_DIR$/thought/models.py" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
         <option value="$PROJECT_DIR$/user/templates/users/dashboard.html" />
       </list>
     </option>
@@ -162,6 +194,13 @@
               <item name="TestProject" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="chartist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestProject" type="b2602c69:ProjectViewProjectNode" />
@@ -234,6 +273,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\django-test\dajngo-test\TestProject\static\js\chartist" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\django-test\dajngo-test\TestProject\static\js" />
     </key>
@@ -391,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511804566918</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Stretchy for nice looking from thingy">
+      <created>1511805951377</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1511805951377</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -406,6 +455,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@TestProject" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.4957627" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -416,7 +466,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -442,7 +491,8 @@
     <MESSAGE value="Better menu name" />
     <MESSAGE value="Show feeling on dashboard" />
     <MESSAGE value="Better display of feelings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better display of feelings" />
+    <MESSAGE value="Stretchy for nice looking from thingy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stretchy for nice looking from thingy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -676,16 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -710,18 +740,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/stretchy.js">
+    <entry file="file://$PROJECT_DIR$/static/js/chartist/chartist.min.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+        <state relative-caret-position="-36774">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/static/js/chartist/chartist.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/chartist/chartist.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/chartist/chartist.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -734,11 +786,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="218" lean-forward="false" selection-start-line="14" selection-start-column="218" selection-end-line="14" selection-end-column="218" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/stretchy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/templates/users/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#189#1062#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

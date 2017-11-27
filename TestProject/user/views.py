@@ -11,9 +11,6 @@ from . import forms
 class Dashboard(LoginRequiredMixin, generic.TemplateView):
     template_name = 'users/dashboard.html'
 
-def dashboard(request):
-    return  render(request, 'users/dashboard.html')
-
 class LogoutView(LoginRequiredMixin, generic.FormView):
     form_class = forms.LogoutForm
     template_name = 'users/logout.html'

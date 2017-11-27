@@ -5,3 +5,20 @@ body {
 .pt {
     padding-top: 10px;
 }
+
+.jumbotron{
+    height: 550px;
+    text-align: center;
+    color: white;
+    background: url(../img/forestHomePicture.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home{
+    padding-top: 150px;
+}
+
+
+.he{
+    padding: 0 15px 0 15px;
+}

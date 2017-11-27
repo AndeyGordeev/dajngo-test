@@ -1,6 +1,6 @@
 from django import template
 
-from thougth.forms import ThoughtForm
+from thought.forms import ThoughtForm
 
 register = template.Library()
 

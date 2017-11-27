@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c11175d-2cb2-4f74-96c5-f15f3e408f2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thought/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thought/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thougth/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject/settings.py" afterPath="$PROJECT_DIR$/TestProject/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestProject/urls.py" afterPath="$PROJECT_DIR$/TestProject/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/__init__.py" afterPath="$PROJECT_DIR$/thought/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/admin.py" afterPath="$PROJECT_DIR$/thought/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/apps.py" afterPath="$PROJECT_DIR$/thought/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/forms.py" afterPath="$PROJECT_DIR$/thought/forms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/thought/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/migrations/__init__.py" afterPath="$PROJECT_DIR$/thought/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/models.py" afterPath="$PROJECT_DIR$/thought/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/templates/thought/_form.html" afterPath="$PROJECT_DIR$/thought/templates/thought/_form.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/templatetags/__init__.py" afterPath="$PROJECT_DIR$/thought/templatetags/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/templatetags/thought_tags.py" afterPath="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thougth/tests.py" afterPath="$PROJECT_DIR$/thought/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/urls.py" afterPath="$PROJECT_DIR$/user/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/views.py" afterPath="$PROJECT_DIR$/user/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +21,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -67,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thought/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -101,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -171,10 +156,8 @@
         <option value="$PROJECT_DIR$/asserts/css/feelings.css" />
         <option value="$PROJECT_DIR$/user/templates/users/dashboars.html" />
         <option value="$PROJECT_DIR$/user/forms.py" />
-        <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/user/templates/users/signeup.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/user/views.py" />
         <option value="$PROJECT_DIR$/TestProject/settings.py" />
         <option value="$PROJECT_DIR$/static/css/feelings.css" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
@@ -191,6 +174,8 @@
         <option value="$PROJECT_DIR$/thougth/models.py" />
         <option value="$PROJECT_DIR$/thought/models.py" />
         <option value="$PROJECT_DIR$/thought/views.py" />
+        <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/user/urls.py" />
       </list>
     </option>
   </component>
@@ -429,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511782956920</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Saving a thought works from the dashboard">
+      <created>1511800914991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1511800914991</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -475,7 +467,8 @@
     <MESSAGE value="Logout view, form, templates" />
     <MESSAGE value="Sign up view, templates, etc" />
     <MESSAGE value="Showing form on dashboard page thought templatags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Showing form on dashboard page thought templatags" />
+    <MESSAGE value="Saving a thought works from the dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving a thought works from the dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -711,26 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thought/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -755,6 +728,26 @@
           <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

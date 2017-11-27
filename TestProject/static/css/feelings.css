@@ -22,3 +22,11 @@ body {
 .he{
     padding: 0 15px 0 15px;
 }
+
+.lower{
+    margin-top: -15px;
+}
+
+.descriptions{
+    padding: 0 15px 20px 15px;
+}

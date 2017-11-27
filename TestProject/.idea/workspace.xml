@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c11175d-2cb2-4f74-96c5-f15f3e408f2c" name="Default" comment="Stretchy for nice looking from thingy">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/chartist/chartist.min.js.map" />
+    <list default="true" id="2c11175d-2cb2-4f74-96c5-f15f3e408f2c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout.html" afterPath="$PROJECT_DIR$/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thought/templatetags/thought_tags.py" afterPath="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/templates/users/dashboard.html" afterPath="$PROJECT_DIR$/user/templates/users/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/views.py" afterPath="$PROJECT_DIR$/user/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thought_tags.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thought_tags.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -68,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/templates/users/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="e#189#1062#0#HTML" expanded="false" />
               </folding>
@@ -137,8 +131,8 @@
         <option value="$PROJECT_DIR$/thought/models.py" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/user/views.py" />
-        <option value="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
         <option value="$PROJECT_DIR$/user/templates/users/dashboard.html" />
+        <option value="$PROJECT_DIR$/thought/templatetags/thought_tags.py" />
       </list>
     </option>
   </component>
@@ -440,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1511805951377</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Graphs!">
+      <created>1511810680970</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1511810680970</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Small chamges: reverse graph and delete test writen dict">
+      <created>1511811013820</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1511811013820</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,7 +500,9 @@
     <MESSAGE value="Show feeling on dashboard" />
     <MESSAGE value="Better display of feelings" />
     <MESSAGE value="Stretchy for nice looking from thingy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stretchy for nice looking from thingy" />
+    <MESSAGE value="Graphs!" />
+    <MESSAGE value="Small chamges: reverse graph and delete test writen dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small chamges: reverse graph and delete test writen dict" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,22 +830,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
+    <entry file="file://$PROJECT_DIR$/user/templates/users/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#189#1062#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/templates/users/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/thought/templatetags/thought_tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
-            <element signature="e#189#1062#0#HTML" expanded="false" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

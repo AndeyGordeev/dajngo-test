@@ -33,7 +33,7 @@
                       <li><a href="{% url 'user:login' %}">Login</a></li>
                       <li><a href="#">Sign up</a></li>
                   {% else %}
-                      <li><a href="#">Recorder</a></li>
+                      <li><a href="{% url 'user:logout' %}">Logout</a></li>
                   {% endif %}
             </div><!--/.navbar-collapse -->
           </div>

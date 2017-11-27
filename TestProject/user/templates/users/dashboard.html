@@ -1,5 +1,5 @@
 {% extends 'layout.html' %}
-
+{% load static %}
 {% load thought_tags %}
 
 {% block title %}Dashboard | {{ block.super }}{% endblock %}
@@ -14,7 +14,8 @@
                         <div class="list-group-item">
                             <h4 class="list-group-item-heading">
                                 <time class="pull-right small" datetime="{{ thought.recorded_at }}">{{ thought.recorded_at|date:"SHORT_DATE_FORMAT" }}</time>
-                                {{ thought.get_conditions_display }}</h4>
+                                {{ thought.get_conditions_display }}
+                            </h4>
                             {% if thought.notes %}{{ thought.notes|linebreaks }}{% endif %}
                         </div>
                     {% endfor %}
@@ -26,4 +27,8 @@
         </div>
 
     </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{% static 'js/stretchy.js' %}" data-filter="#id_notes" async></script>
 {% endblock %}

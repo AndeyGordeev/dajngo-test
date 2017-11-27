@@ -22,5 +22,5 @@ def chart_data(context):
     thought = user.thought.filter(recorded_at__gte=ten_days_ago)
     return json.dumps({
         'labels': [thought.recorded_at.strftime('%Y-%m-%d') for thought in thought],
-        'series': [[thought.conditions for thought in thought]]
+        'series': [[thought.conditions*-1 for thought in thought]]
     })

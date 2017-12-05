@@ -30,3 +30,9 @@ body {
 .descriptions{
     padding: 0 15px 20px 15px;
 }
+
+.openid{
+    height: 30px;
+    width: 150px;
+    line-height: 30px;
+}

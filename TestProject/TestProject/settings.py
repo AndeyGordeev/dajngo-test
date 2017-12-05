@@ -25,7 +25,7 @@ SECRET_KEY = '&rt#3tc=y7!75%m6s6vt^+x1bl0svb-cx&v7)1m)l@0^c6f06q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.104']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_openid_auth',
     'bootstrap3',
     'thought',
     'user',
@@ -66,6 +67,10 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.i18n',
+                'django.template.context_processors.media',
+                'django.template.context_processors.static',
+                'django.template.context_processors.tz',
             ],
         },
     },
@@ -124,5 +129,37 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
-LOGIN_URL = 'user:login'
-LOGIN_REDIRECT_URL = 'user:dashboard'
+# LOGIN_URL = 'user:login'
+# LOGIN_REDIRECT_URL = 'user:dashboard'
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
+
+AUTHENTICATION_BACKENDS = (
+    'django_openid_auth.auth.OpenIDBackend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+# Should users be created when new OpenIDs are used to log in?
+OPENID_CREATE_USERS = True
+
+# When logging in again, should we overwrite user details based on
+# data received via Simple Registration?
+OPENID_UPDATE_DETAILS_FROM_SREG = True
+
+# Map of OpenID Provider base URLs to recognised account verification schemes
+# returned in response to a http://ns.login.ubuntu.com/2013/validation/account
+# request.  Use None as the key in place of a URL to specify verification
+# schemes that will be trusted from unknown OpenID Providers (not recommended).
+OPENID_VALID_VERIFICATION_SCHEMES = {
+    None: (),
+}
+
+# If set, always use this as the identity URL rather than asking the
+# user.  This only makes sense if it is a server URL.
+OPENID_SSO_SERVER_URL = 'https://login.ubuntu.com/'
+
+# Tell django.contrib.auth to use the OpenID signin URLs.
+LOGIN_URL = '/openid/login/'
+LOGIN_REDIRECT_URL = '/'
+
+# Should django_auth_openid be used to sign into the admin interface?
+OPENID_USE_AS_ADMIN_LOGIN = False

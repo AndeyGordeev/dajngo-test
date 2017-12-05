@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^users/', include(user_urls, namespace='user')),
     url(r'^thought/', include(thought_urls, namespace='thought')),
+    url(r'^openid/', include('django_openid_auth.urls')),
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='home'),
 ]

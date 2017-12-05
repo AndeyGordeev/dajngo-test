@@ -1,1 +1,1 @@
-# dajngo-test
+# django-test
